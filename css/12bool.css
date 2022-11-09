@@ -1,7 +1,7 @@
 /* *-----------------------------------------------------------------
 UTILITIES */
 
-/* * 12 BOOL STRUCTURE */
+/* * GRID FLEX BASED STRUCTURE */
 
 /* ? CONTAINER + ROW */
 .container{
@@ -129,4 +129,18 @@ UTILITIES */
 
 .col-offset-11{
     margin-left: calc(100%/12 * 11);
+}
+
+
+/* ? OTHER FLEX PROPERTIES */
+.j_center{
+    justify-content: center;
+}
+
+.j_space-between{
+    justify-content: space-between;
+}
+
+.a_center{
+    align-items: center;
 }
