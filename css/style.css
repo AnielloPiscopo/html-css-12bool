@@ -48,4 +48,6 @@ span{
 
 
 /* * OTHER */
-.lower-part span{}
+.lower-part span{
+    padding-top: 1rem;
+}
