@@ -14,4 +14,38 @@ GENERAL CHANGES */
 
 /* * ROOT */
 :root{
+    /* ? COLORS */
+    --main-colums_bg-color:#006cfa;
+    --main-text_color:white;
+    --little-colums_bg-color: #00e065;
 }
+
+
+
+/* * TAG HTML */
+span{
+    display: block;
+    font-weight: bold;
+}
+
+
+
+/* * CLASSES */
+[class*="col"]{
+    background-color: var(--main-colums_bg-color);
+    color: var(--main-text_color);
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    min-height: 2rem;
+    border: 1px solid var(--main-text_color);
+}
+
+[class*="col"]>.row>[class*="col"]{
+    background-color: var(--little-colums_bg-color);
+    border: 1px solid var(--main-colums_bg-color);
+}
+
+
+
+/* * OTHER */
+.lower-part span{}

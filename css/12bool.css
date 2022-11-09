@@ -26,6 +26,11 @@ UTILITIES */
     max-width: 100%;
 }
 
+.col-1{
+    flex-basis: calc(100%/12 * 1);
+    max-width: calc(100%/12 * 1);
+}
+
 .col-2{
     flex-basis: calc(100%/12 * 2);
     max-width: calc(100%/12 * 2);
@@ -134,13 +139,16 @@ UTILITIES */
 
 /* ? OTHER FLEX PROPERTIES */
 .j_center{
+    display: flex;
     justify-content: center;
 }
 
 .j_space-between{
+    display: flex;
     justify-content: space-between;
 }
 
 .a_center{
+    display: flex;
     align-items: center;
 }
