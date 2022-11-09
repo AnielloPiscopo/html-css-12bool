@@ -22,15 +22,16 @@ GENERAL CHANGES */
 
 
 
-/* * TAG HTML */
-span{
+/* * CLASSES */
+.title{
     display: block;
     font-weight: bold;
 }
 
+.lower-part .title{
+    padding-top: 1rem;
+}
 
-
-/* * CLASSES */
 [class*="col"]{
     background-color: var(--main-colums_bg-color);
     color: var(--main-text_color);
@@ -43,11 +44,4 @@ span{
 [class*="col"]>.row>[class*="col"]{
     background-color: var(--little-colums_bg-color);
     border: 1px solid var(--main-colums_bg-color);
-}
-
-
-
-/* * OTHER */
-.lower-part span{
-    padding-top: 1rem;
 }
